@@ -1,17 +1,16 @@
 'use strict';
 
-const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
   target: 'web',
   mode: 'production',
-  entry: './src/scanner',
+  entry: './src/toio-browser.js',
   output: {
-    library: ['toio', 'scanner'],
+    library: 'toio',
     libraryTarget: 'umd',
     path: __dirname,
-    filename: 'scanner.js'
+    filename: 'toio-browser-1.0.0.js'
   },
   resolve: {
     alias: {
