@@ -1,4 +1,3 @@
-import './android-ble-patch';
-import * as scanner from '@toio/scanner';
-import * as cube from '@toio/cube';
-export default { scanner, cube };
+require('./android-ble-patch');
+exports.scanner = require('@toio/scanner');
+exports.cube = require('@toio/cube');
