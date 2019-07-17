@@ -19,6 +19,5 @@ module.exports = {
   },
   plugins: [
     new webpack.IgnorePlugin(/^ws$/)
-  ],
-  devtool: 'source-map'
+  ]
 };
