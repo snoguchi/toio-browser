@@ -9,4 +9,5 @@ if (/android/i.test(navigator.userAgent)) {
   const mutex = Promise.resolve();
   proto.startNotifications = mutexify(proto.startNotifications, mutex);
   proto.readValue = mutexify(proto.readValue, mutex);
+  proto.writeValue = mutexify(proto.writeValue, mutex);
 }
