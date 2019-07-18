@@ -7,7 +7,7 @@ module.exports = {
   mode: 'production',
   entry: './src/toio-browser.js',
   output: {
-    library: 'toio',
+    library: ['toio', 'scanner'],
     libraryTarget: 'umd',
     path: __dirname,
     filename: 'toio-browser-1.0.0.js'

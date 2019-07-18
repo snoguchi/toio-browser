@@ -1,3 +1,2 @@
-require('./android-ble-patch');
-exports.scanner = require('@toio/scanner');
-exports.cube = require('@toio/cube');
+import './android-ble-patch';
+export * from '@toio/scanner';
