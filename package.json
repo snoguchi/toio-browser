@@ -3,6 +3,10 @@
   "version": "1.0.0-1",
   "description": "toio.js for browser",
   "main": "scanner.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snoguchi/toio-browser.git"
+  },
   "scripts": {
     "build": "webpack",
     "test:esm": "karma start test/esm/karma.conf.js",
